@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/logofavicon.png" type="image/x-icon">
+</head>
+<body>
+    <section>
+        <a href="index.html"><img src="imagens/Inserir um título.png" alt="Montcor-logo" class="logo"></a>
+        <table class="born">
+            <td class="born"><a href="sobre.html">Sobre Nós</a></td>
+            <td class="born"><a href="contato.html">Contatos</a></td> 
+        </table>
+    </section>
+    <main>
+        <table>
+            <tr>
+                <th colspan="2"><h3>Cada pacote vem com 50 pares de sapatilhas.</h3></th>
+                <th colspan="2"><h3>Cada pacote vem com 50 unidades de toucas.</h3></th>
+            </tr>
+            <tr>
+                <td><img src="imagens/sapavender.jpg" alt="sapatilha gramatura 40º" class="vend"></td>
+                <td><h4>Sapatilhas de gramatura 40º</h4>
+                <label for="squant">Quantidade:</label>
+                <input type="number" name="snum" id="snum" value="0" class="comp">
+                <label for="pares">pacotes</label></td>
+                <td><img src="imagens/toucvender.jpg" alt="Toucas gramatura 40º" class="vend"></td>
+                <td><h4>Toucas de gramatura 40º</h4>
+                <label for="squant">Quantidade:</label>
+                <input type="number" name="tnum" id="tnum"value="0" class="comp">
+                <label for="unidade">pacotes</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="form">Forma de pagamento:</label>
+                <select name="form" id="form">
+                    <option value="valor">Forma de Pagamento</option>
+                    <option value="pix">Pix</option>
+                    <option value="Cartc">Cartão de Crédito</option>
+                    <option value="cartd">Cartão de Débito</option>
+                    <option value="bol">Boleto</option>
+                </select></td>
+                <td><button onclick="compr()">Ok</button></td>
+            </tr>
+            <tr>
+                <td>
+                    <p id="resp" class="res" style="visibility: hidden;">
+                        <img src="imagens/QR-Code.webp" alt="">
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td><button onclick="compre()" class="but">Comprar</button></td>
+                <td colspan="2"></td>
+                <td><a href="index.html"><button class="but">Voltar</button></a></td>
+            </tr>
+
+        </table>
+    </main>
+    <footer>
+        <p>Produtos descartaveis, com uma ótima qualidade e segurança.</p>
+    </footer>
+    <script src="comprar.js"></script>
+</body>
+</html>

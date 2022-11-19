@@ -1,0 +1,11 @@
+
+Paleta de cores para o site
+#0F64A6
+
+#08385C
+
+#1483D9
+
+#57A4DF
+
+#08385C

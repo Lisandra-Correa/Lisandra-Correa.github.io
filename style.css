@@ -37,6 +37,15 @@ img.modelo{
     max-height: 200px;
     max-width: 300px;
 }
+td.born{
+    padding-left: 30px;
+}
+table.born{
+    color: white;
+    font-size:x-large;
+    float:right;padding: 10px;
+    margin-right: 20px;
+}
 table{
     margin: auto;
     padding: auto;
@@ -45,10 +54,18 @@ img.vend{
     display: block;
     max-height: 200px;
 }
-input{
+input.comp{
     max-width: 50px;
 }
-button{
+input.mens{
+    width: 600px;
+    border-radius: 5px;
+}
+textarea{
+    width: 600px;
+    border-radius: 5px;
+}
+button.but{
     float:right;
     border-radius: 5px;
     background: #0066A2;
@@ -57,10 +74,10 @@ button{
     border-color: #0066A2;
     height: 50px;
     width: 100px;
-    font: bold15px arial,sans-serif;
+    font: bold 15px arial,sans-serif;
     text-shadow: none;
 }
-button:hover{
+button.but:hover{
     float:right;
     border-radius: 5px;
     background: #37b3fa;
@@ -69,6 +86,12 @@ button:hover{
     border-color: #0066A2;
     height: 50px;
     width: 100px;
-    font: bold15px arial,sans-serif;
+    font: bold 15px arial,sans-serif;
     text-shadow: none;
+}
+a{
+    color: white;
+}
+p.res{
+    display: none;
 }
